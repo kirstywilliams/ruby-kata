@@ -14,3 +14,6 @@ Some kata completed for [CodeWars](http://www.codewars.com).
 3. digitise(n)
 
 	Given a non-negative integer, return an array / a list of the individual digits in order.
+4. findword(query, array_of_strings)
+
+	Write a method that will search an array of strings for all strings that contain another string, ignoring capitalization. Then return an array of the found strings.

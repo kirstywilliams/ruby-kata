@@ -27,5 +27,18 @@ class RubyKata
 		n.to_s.chars.map(&:to_i)
 	
 	end
+
+	# This function searches an array of strings for all 
+	# strings that contain another string, ignoring 
+	# capitalization. Then returns an array of the found 
+	# strings or an array containing "Empty" if no matches
+	# found
+	def findWord(query, array_of_strings)
+
+		endarray = array_of_strings.select { |s| s.downcase.include?(query.downcase) }
+		endarray.empty? ? ["Empty"] : endarray
 	
+	end
+
+
 end
