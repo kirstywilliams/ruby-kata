@@ -51,4 +51,37 @@ class RubyKata
 	end
 
 
+	# These four functions return the head, tail, 
+	# start, and last parts of the given array, respectively.
+	def head(arr)
+	 	
+	 	arr.first
+	
+	end
+
+	def tail(arr)
+		
+		arr[1..-1]
+	
+	end
+
+	def init(arr)
+	  
+	  arr[0..-2]
+	
+	end
+
+	def last(arr)
+	  
+	  arr.last
+	
+	end
+
+	# Returns greeting with capitalised name.
+	def greet(name)
+
+		"Hello #{name.capitalize}!"
+	
+	end
+
 end
