@@ -34,8 +34,8 @@ Some kata completed for [CodeWars](http://www.codewars.com). Hopefully sneak in 
 	λ init [1,2,3,4,5]
 	[1,2,3,4]
 	λ last [1,2,3,4,5]
-	5
-	```
+	5```
+	
 	Implement these functions. Make sure it doesn't edit the array.
 
 7. greet(name)
