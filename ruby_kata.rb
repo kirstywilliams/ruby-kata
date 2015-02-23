@@ -40,5 +40,15 @@ class RubyKata
 	
 	end
 
+	# This function takes a function and a list of 
+	# arguments to be applied to that function and 
+	# returns the result of calling the given function
+	# with the given arguments.
+	def spread(func, args)
+
+  		func.call(*args)
+
+	end
+
 
 end
