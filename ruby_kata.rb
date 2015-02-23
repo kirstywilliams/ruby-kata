@@ -67,13 +67,13 @@ class RubyKata
 
 	def init(arr)
 	  
-	  arr[0..-2]
+		arr[0..-2]
 	
 	end
 
 	def last(arr)
 	  
-	  arr.last
+		arr.last
 	
 	end
 
@@ -81,6 +81,15 @@ class RubyKata
 	def greet(name)
 
 		"Hello #{name.capitalize}!"
+	
+	end
+
+	# This function takes a number as input and returns 
+	# the sum of the absolute value of each of the number's 
+	# decimal digits
+	def sumDigits(number)
+
+		number.abs.to_s.split(//).inject(0) { |s, x| s + x.to_i }
 	
 	end
 

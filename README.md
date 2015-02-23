@@ -41,3 +41,7 @@ Some kata completed for [CodeWars](http://www.codewars.com). Hopefully sneak in 
 7. greet(name)
 	
 	Write a method that takes one argument as name and then greets that name, capitalized and ends with an exclamation point.
+
+8. sumDigits(number)
+
+	Write a function named sumDigits which takes a number as input and returns the sum of the absolute value of each of the number's decimal digits.
