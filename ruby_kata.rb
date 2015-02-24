@@ -93,4 +93,12 @@ class RubyKata
 	
 	end
 
+	# This method counts the number of power sets for a 
+	# given array
+	def powers(list)
+
+		2 ** list.size
+		
+	end
+
 end

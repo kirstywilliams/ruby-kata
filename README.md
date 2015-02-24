@@ -45,3 +45,7 @@ Some kata completed for [CodeWars](http://www.codewars.com). Hopefully sneak in 
 8. sumDigits(number)
 
 	Write a function named sumDigits which takes a number as input and returns the sum of the absolute value of each of the number's decimal digits.
+
+9. powers(list)
+
+	Create a function powers that takes an array, and returns the number of subsets possible to create from that list. In other words, counts the power sets.
